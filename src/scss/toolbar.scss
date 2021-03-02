@@ -1,0 +1,11 @@
+.excel__toolbar {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  .button {
+    @include button(green);
+  }
+}
